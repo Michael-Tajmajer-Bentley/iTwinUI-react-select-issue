@@ -1,0 +1,73 @@
+{
+  "name": "example",
+  "description": "example",
+  "license": "MIT",
+  "author": {
+    "name": "Bentley Systems, Inc.",
+    "url": "http://www.bentley.com"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "start": "cross-env REACT_APP_DEVMODE=true PORT=3000 REACT_APP_LOCAL_PORT=3000 SKIP_PREFLIGHT_CHECK=true react-scripts start"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.3.2"
+  },
+  "devDependencies": {
+    "@bentley/build-tools": "^2.14.3",
+    "@bentley/extension-webpack-tools": "^2.14.3",
+    "@bentley/react-scripts": "^3.4.10",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react-dom": "^16.9.12",
+    "@types/react": "^16.14.5",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@bentley/bentleyjs-core": "^2.14.3",
+    "@bentley/forms-dashboard": "^0.3.1",
+    "@bentley/frontend-application-insights-client": "^2.14.3",
+    "@bentley/frontend-authorization-client": "^2.14.3",
+    "@bentley/geometry-core": "^2.14.3",
+    "@bentley/get-user-color": "^1.2.0",
+    "@bentley/ifc-exporter-ui": "^1.0.8",
+    "@bentley/imodelhub-client": "^2.14.3",
+    "@bentley/imodeljs-common": "^2.14.3",
+    "@bentley/imodeljs-frontend": "^2.14.3",
+    "@bentley/imodeljs-i18n": "^2.14.3",
+    "@bentley/imodeljs-markup": "^2.14.3",
+    "@bentley/imodeljs-quantity": "^2.14.3",
+    "@bentley/itwin-viewer-react": "^6.2.2",
+    "@bentley/itwin-whats-new": "^1.13.2",
+    "@bentley/orbitgt-core": "^2.14.3",
+    "@bentley/presentation-common": "^2.14.3",
+    "@bentley/presentation-frontend": "^2.14.3",
+    "@bentley/product-settings-client": "^2.14.3",
+    "@bentley/psacquisitioncomponent": "^1.0.2",
+    "@bentley/rbac-client": "^2.14.3",
+    "@bentley/react-scripts": "^3.4.5",
+    "@bentley/share-ui": "0.1.24",
+    "@bentley/telemetry-client": "^2.14.3",
+    "@bentley/ui-abstract": "^2.14.3",
+    "@bentley/ui-components": "^2.14.3",
+    "@bentley/ui-core": "^2.14.3",
+    "@bentley/ui-framework": "^2.14.3",
+    "@bentley/ui-ninezone": "^2.14.3",
+    "@bentley/webgl-compatibility": "^2.14.3",
+    "@itwin/itwinui-react": "^1.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.3"
+  },
+  "browserslist": [
+    "electron 8.0.0",
+    "last 4 chrome version",
+    "last 4 firefox version",
+    "last 4 safari version",
+    "last 4 ios version",
+    "last 4 ChromeAndroid version",
+    "last 4 edge version",
+    "not dead",
+    "not <0.2%"
+  ]
+}
